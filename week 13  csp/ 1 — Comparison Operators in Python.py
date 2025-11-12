@@ -51,15 +51,15 @@ else :
 #password
 
 # practice problem :if score >=90 and score <=100:
-if score >90 and <= 90:
+if score >90 and score<= 90:
     print("you got an A")
-elif score >=80 and score is <=89:
+elif score >= 80 and score is <= 89:
     print("You goit a B")
 elif score >= 70 and score<= 79:
     print("you got a C")
-elif score >=60 and<=69:
+elif score >=60 and score <= 69:
     print ("you got a D") 
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
 password = input ("What is your password")
-if len(password) >=8 and any(char.is digit())
+if len(password) >=8 and any (char.isdigit())
 
